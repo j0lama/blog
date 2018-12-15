@@ -18,14 +18,14 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -71,7 +71,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -123,11 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $blueSelection;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $blueSelection;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -277,7 +277,13 @@ nav {
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
-
+.high {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27, 31, 35, 0.09);
+  border-radius: 3px;
+}
 footer {
   padding: 20px 0;
   text-align: center;
