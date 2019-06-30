@@ -11,9 +11,9 @@ permalink: /about/
 </p>
 <br>
 
-Im a computer science student, open source enthusiast and UNIX user.
+Im a computer engineer, open source enthusiast and UNIX user.
 
-Im interested in Operative Systems, Computer Networks, Machine Learning and of course hacking and security. My principles interest areas in security are exploiting and enbedded systems hacking. 
+Im interested in operating systems, computer networks, embedded and high performance systems, machine learning and security. My principles interest areas in security are exploiting and enbedded systems hacking. 
 
 I love Linux even though I also use OSX.
 
